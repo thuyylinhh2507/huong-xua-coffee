@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hương Xưa - Quán Cà Phê Truyền Thống</title>
+    <meta name="description"
+        content="Hương Xưa - Nơi hương vị truyền thống gặp gỡ hiện đại. Thưởng thức cà phê chất lượng trong không gian ấm cúng.">
+    <link rel="stylesheet" href="index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-cup-hot" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6zM13 12.5a2 2 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5M2.64 13.825 1.123 7h11.754l-1.517 6.825A1.5 1.5 0 0 1 9.896 15H4.104a1.5 1.5 0 0 1-1.464-1.175" />
+                        <path
+                            d="m4.4.8-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 3.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 6.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 9.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8" />
+                    </svg>
+                </span>
+                <h1>Hương Xưa</h1>
+            </div>
+            <nav class="nav">
+                <a href="#home">Trang chủ</a>
+                <a href="#about">Giới thiệu</a>
+                <a href="#menu">Menu</a>
+                <a href="#booking">Đặt bàn</a>
+                <a href="#contact">Liên hệ</a>
+            </nav>
+            <div class="nav-contact">
+                <span>
+                    <i class="fa-solid fa-phone-volume"></i>
+                    0123 456 789
+                </span>
+            </div>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" onclick="closeMobileMenu()">Trang chủ</a>
+        <a href="#about" onclick="closeMobileMenu()">Giới thiệu</a>
+        <a href="#menu" onclick="closeMobileMenu()">Menu</a>
+        <a href="#booking" onclick="closeMobileMenu()">Đặt bàn</a>
+        <a href="#contact" onclick="closeMobileMenu()">Liên hệ</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="slide active">
+                <img src="img/cafe1.jpg" alt="Không gian quán cà phê">
+                <div class="slide-content">
+                    <h2>Chào mừng đến với Hương Xưa</h2>
+                    <p>Nơi hương vị truyền thống gặp gỡ hiện đại</p>
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn btn-primary">Xem Menu</a>
+                        <a href="#booking" class="btn btn-secondary">Đặt Bàn Ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/cafe2.jpg" alt="Cà phê thơm ngon">
+                <div class="slide-content">
+                    <h2>Không gian ấm cúng</h2>
+                    <p>Thưởng thức cà phê trong không gian thoải mái</p>
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn btn-primary">Xem Menu</a>
+                        <a href="#booking" class="btn btn-secondary">Đặt Bàn Ngay</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/cafe3.jpeg" alt="Cà phê rang xay">
+                <div class="slide-content">
+                    <h2>Cà phê rang xay tươi</h2>
+                    <p>Từng hạt cà phê được chọn lọc kỹ lưỡng</p>
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn btn-primary">Xem Menu</a>
+                        <a href="#booking" class="btn btn-secondary">Đặt Bàn Ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-nav">
+            <button class="prev" onclick="changeSlide(-1)">❮</button>
+            <button class="next" onclick="changeSlide(1)">❯</button>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Về Chúng Tôi</h2>
+                <p>Hương Xưa ra đời với mong muốn mang đến những trải nghiệm cà phê đặc biệt, kết hợp giữa hương vị
+                    truyền thống và không gian hiện đại.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/quan1.jpeg" alt="Không gian quán">
+                </div>
+                <div class="about-text">
+                    <h3>Câu Chuyện Thương Hiệu</h3>
+                    <p>Hương Xưa được thành lập với tình yêu dành cho cà phê và mong muốn tạo ra một không gian thư giãn
+                        cho mọi người. Chúng tôi tin rằng mỗi tách cà phê không chỉ là thức uống mà còn là khoảnh khắc
+                        kết nối.</p>
+                    <p>Với nguyên liệu được tuyển chọn kỹ càng từ những vùng cà phê nổi tiếng, chúng tôi cam kết mang
+                        đến cho khách hàng những trải nghiệm vị giác tuyệt vời nhất.</p>
+                    <p>Không gian quán được thiết kế ấm cúng, phù hợp cho cả việc làm việc, họp mặt bạn bè hay thư giãn
+                        một mình.</p>
+                </div>
+            </div>
+            <div class="features">
+                <div class="feature chat_luong">
+                    <div class="feature-text">
+                        <h4>Chất Lượng</h4>
+                        <p>Chất lượng cà phê tại quán được đánh giá cao nhờ hạt rang xay nguyên chất, hương thơm đặc
+                            trưng và vị đậm đà khó quên.
+                            Dịch vụ chu đáo, không gian tinh tế cùng menu đa dạng giúp quán trở thành điểm đến lý tưởng
+                            cho những ai yêu cà phê thật sự.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature khong_gian">
+                    <div class="feature-text">
+                        <h4>Không Gian</h4>
+                        <p>Không gian quán được thiết kế tinh tế với tone màu trầm ấm, kết hợp ánh sáng nhẹ tạo nên cảm
+                            giác
+                            thư giãn và sang trọng.
+                            Sự hòa quyện giữa thiên nhiên và nội thất gỗ mang đến cho quán một bầu không khí gần gũi, dễ
+                            chịu.
+                            Bố cục không gian hợp lý, mỗi góc đều có nét riêng, rất thích hợp để trò chuyện, đọc sách
+                            hay
+                            chụp ảnh.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature dich_vu">
+                    <div class="feature-text">
+                        <h4>Dịch Vụ</h4>
+                        <p>Dịch vụ tại quán được đánh giá cao nhờ phong cách phục vụ chuyên nghiệp, chu đáo và tận tâm.
+                            Đội ngũ nhân viên luôn giữ thái độ lịch sự, thân thiện và sẵn sàng hỗ trợ khách hàng khi
+                            cần.
+                            Từ khâu order đến khi phục vụ, mọi thứ đều diễn ra nhanh chóng và trơn tru, tạo ấn tượng tốt
+                            cho
+                            khách.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>Thực Đơn</h2>
+                <p>Khám phá menu đa dạng với những món đồ uống và bánh ngọt tinh tế</p>
+            </div>
+            <div class="menu-tabs">
+                <button class="tab-btn active" onclick="showMenu('coffee')">Cà Phê</button>
+                <button class="tab-btn" onclick="showMenu('tea')">Trà sữa</button>
+                <button class="tab-btn" onclick="showMenu('smoothie')">Sinh Tố</button>
+                <button class="tab-btn" onclick="showMenu('pastry')">Bánh Ngọt</button>
+            </div>
+
+            <!-- Coffee Menu -->
+            <div class="menu-content active" id="coffee">
+                <div class="menu-grid">
+                    <div class="menu-item" data-id="cf-den" data-name="Cà Phê Đen Đá" data-price="25000"
+                        data-img="img/Ca-phe-den.jpeg">
+                        <img src="img/Ca-phe-den.jpeg" alt="Cà Phê Đen Đá">
+                        <div class="menu-item-content">
+                            <h3>Cà Phê Đen Đá</h3>
+                            <p>Cà phê phin truyền thống, đậm đà hương vị</p>
+                            <div class="menu-item-footer">
+                                <span class="price">25.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('cf-den')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="cf-sua" data-name="Cà Phê Sữa Đá" data-price="30000"
+                        data-img="img/ca-phe-sua-da.jpg">
+                        <img src="img/ca-phe-sua-da.jpg" alt="Cà Phê Sữa Đá">
+                        <div class="menu-item-content">
+                            <h3>Cà Phê Sữa Đá</h3>
+                            <p>Cà phê phin với sữa đặc ngọt ngào</p>
+                            <div class="menu-item-footer">
+                                <span class="price">30.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('cf-sua')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="cappuccino" data-name="Cappuccino" data-price="45000"
+                        data-img="img/cappuccino-cafe.jpg">
+                        <img src="img/cappuccino-cafe.jpg" alt="Cappuccino">
+                        <div class="menu-item-content">
+                            <h3>Cappuccino</h3>
+                            <p>Espresso với lớp sữa foam mềm mịn</p>
+                            <div class="menu-item-footer">
+                                <span class="price">45.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('cappuccino')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="latte" data-name="Latte" data-price="50000"
+                        data-img="img/cafe-latte.jpg">
+                        <img src="img/cafe-latte.jpg" alt="Latte">
+                        <div class="menu-item-content">
+                            <h3>Latte</h3>
+                            <p>Espresso với sữa tươi và nghệ thuật latte art</p>
+                            <div class="menu-item-footer">
+                                <span class="price">50.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('latte')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="espresso" data-name="Cà Phê Espresso" data-price="55000"
+                        data-img="img/ca_phe_Espresso.jpg">
+                        <img src="img/ca_phe_Espresso.jpg" alt="Cà Phê Espresso">
+                        <div class="menu-item-content">
+                            <h3>Cà Phê Espresso</h3>
+                            <p>Cà phê pha bằng máy, áp suất cao.</p>
+                            <div class="menu-item-footer">
+                                <span class="price">55.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('espresso')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="cf-muoi" data-name="Cà Phê Muối" data-price="35000"
+                        data-img="img/ca-phe-muoi.webp">
+                        <img src="img/ca-phe-muoi.webp" alt="Cà Phê Muối">
+                        <div class="menu-item-content">
+                            <h3>Cà Phê Muối</h3>
+                            <p>Được làm từ cà phê, sữa đặc, sữa tươi lên men và muối tinh</p>
+                            <div class="menu-item-footer">
+                                <span class="price">35.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('cf-muoi')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tea Menu -->
+            <div class="menu-content" id="tea">
+                <div class="menu-grid">
+                    <div class="menu-item" data-id="tra-sen" data-name="Trà Sửa Sen" data-price="35000"
+                        data-img="img/quan1.jpeg">
+                        <img src="img/quan1.jpeg" alt="Trà Sen">
+                        <div class="menu-item-content">
+                            <h3>Trà Sữa Sen</h3>
+                            <p>Trà sen thơm ngon, thanh mát</p>
+                            <div class="menu-item-footer">
+                                <span class="price">35.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('tra-sen')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="tra-dao" data-name="Trà Đào" data-price="40000"
+                        data-img="img/tra-dao.jpg">
+                        <img src="img/tra-dao.jpg" alt="Trà Đào">
+                        <div class="menu-item-content">
+                            <h3>Trà Đào</h3>
+                            <p>Trà đào tươi mát với miếng đào thật</p>
+                            <div class="menu-item-footer">
+                                <span class="price">40.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('tra-dao')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="tra-sua-tran-chau" data-name="Trà Sữa Trân Châu" data-price="45000"
+                        data-img="img/tra-sua-tran-chau.jpg">
+                        <img src="img/tra-sua-tran-chau.jpg" alt="Trà Sữa Trân Châu">
+                        <div class="menu-item-content">
+                            <h3>Trà Sữa Trân Châu</h3>
+                            <p>Trà sữa đậm đà với trân châu dai ngon</p>
+                            <div class="menu-item-footer">
+                                <span class="price">45.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('tra-sua-tran-chau')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="tra-sua-socola" data-name="Trà Sữa Socola" data-price="55000"
+                        data-img="img/tra-sua-socola.jpg">
+                        <img src="img/tra-sua-socola.jpg" alt="Trà Sữa Socola">
+                        <div class="menu-item-content">
+                            <h3>Trà Sữa Socola</h3>
+                            <p>Hương vị socola đậm đà hòa quyện cùng sữa thơm béo, mang đến cảm giác ngọt ngào, ấm áp và
+                                đầy năng lượng cho ngày mới.</p>
+                            <div class="menu-item-footer">
+                                <span class="price">55.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('tra-sua-socola')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="tra-sua-matcha" data-name="Trà Sữa Matcha" data-price="45000"
+                        data-img="img/tra-sua-tra-xanh-matcha.jpg">
+                        <img src="img/tra-sua-tra-xanh-matcha.jpg" alt="Trà Sữa Matcha">
+                        <div class="menu-item-content">
+                            <h3>Trà Sữa Matcha</h3>
+                            <p>Trà sữa matcha là sự hòa quyện giữa vị chát nhẹ của trà xanh Nhật Bản và vị béo ngọt của
+                                sữa, mang đến hương vị thanh mát, dễ chịu.</p>
+                            <div class="menu-item-footer">
+                                <span class="price">45.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('tra-sua-matcha')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="tra-sua-khoai-mon" data-name="Trà Sữa Khoai Môn" data-price="45000"
+                        data-img="img/tra_sua_khoai_mon.jpg">
+                        <img src="img/tra_sua_khoai_mon.jpg" alt="Trà Sữa Khoai Môn">
+                        <div class="menu-item-content">
+                            <h3>Trà Sữa Khoai Môn</h3>
+                            <p>Màu tím nhẹ nhàng, vị khoai môn bùi béo kết hợp cùng sữa tươi mịn màng — món đồ uống “gây
+                                nghiện” cho những ai yêu vị ngọt dịu tự nhiên.</p>
+                            <div class="menu-item-footer">
+                                <span class="price">45.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('tra-sua-khoai-mon')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Smoothie Menu -->
+            <div class="menu-content" id="smoothie">
+                <div class="menu-grid">
+                    <div class="menu-item" data-id="st-xoai" data-name="Sinh Tố Xoài" data-price="50000"
+                        data-img="img/sinh_to_xoai.jpg">
+                        <img src="img/sinh_to_xoai.jpg" alt="Sinh Tố Xoài">
+                        <div class="menu-item-content">
+                            <h3>Sinh Tố Xoài</h3>
+                            <p>Hương vị nhiệt đới ngọt ngào của xoài chín kết hợp cùng sữa tươi béo mịn — món sinh tố
+                                vàng rực rỡ, thơm ngon khó cưỡng.</p>
+                            <div class="menu-item-footer">
+                                <span class="price">50.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('st-xoai')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="st-dau" data-name="Sinh Tố Dâu" data-price="55000"
+                        data-img="img/sinh_to_dau.png">
+                        <img src="img/sinh_to_dau.png" alt="Sinh Tố Dâu">
+                        <div class="menu-item-content">
+                            <h3>Sinh Tố Dâu</h3>
+                            <p>Vị chua ngọt tự nhiên từ những quả dâu tươi hòa quyện cùng sữa chua mát lạnh, mang lại
+                                cảm giác tươi mới và tràn đầy năng lượng.</p>
+                            <div class="menu-item-footer">
+                                <span class="price">55.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('st-dau')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="st-bo" data-name="Sinh Tố Bơ" data-price="60000"
+                        data-img="img/sinh_to_bo.webp">
+                        <img src="img/sinh_to_bo.webp" alt="Sinh Tố Bơ">
+                        <div class="menu-item-content">
+                            <h3>Sinh Tố Bơ</h3>
+                            <p>Béo ngậy, mịn màng và thơm lừng — sinh tố bơ là lựa chọn hoàn hảo cho những ai yêu thích
+                                hương vị tự nhiên và giàu dinh dưỡng.</p>
+                            <div class="menu-item-footer">
+                                <span class="price">60.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('st-bo')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="st-chuoi" data-name="Sinh Tố Chuối" data-price="50000"
+                        data-img="img/sinh_to_chuoi.jpg">
+                        <img src="img/sinh_to_chuoi.jpg" alt="Sinh Tố Chuối">
+                        <div class="menu-item-content">
+                            <h3>Sinh Tố Chuối</h3>
+                            <p>Chuối chín mềm quyện cùng sữa tươi và chút mật ong, tạo nên hương vị ngọt dịu, béo mịn,
+                                giàu năng lượng cho ngày mới.</p>
+                            <div class="menu-item-footer">
+                                <span class="price">50.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('st-chuoi')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="st-dua" data-name="Sinh Tố Dứa" data-price="60000"
+                        data-img="img/sinh_to_dua.jpg">
+                        <img src="img/sinh_to_dua.jpg" alt="Sinh Tố Dứa">
+                        <div class="menu-item-content">
+                            <h3>Sinh Tố Dứa</h3>
+                            <p>Dứa tươi mát với vị chua nhẹ đặc trưng, giúp giải nhiệt tức thì và mang lại cảm giác sảng
+                                khoái, dễ chịu.</p>
+                            <div class="menu-item-footer">
+                                <span class="price">60.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('st-dua')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pastry Menu -->
+            <div class="menu-content" id="pastry">
+                <div class="menu-grid">
+                    <div class="menu-item" data-id="croissant" data-name="Bánh Croissant" data-price="25000"
+                        data-img="img/Bánh Croissant.jpg">
+                        <img src="img/Bánh Croissant.jpg" alt="Bánh Croissant">
+                        <div class="menu-item-content">
+                            <h3>Bánh Croissant</h3>
+                            <p>Bánh sừng bò giòn tan, thơm bơ</p>
+                            <div class="menu-item-footer">
+                                <span class="price">25.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('croissant')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="tiramisu" data-name="Bánh Tiramisu" data-price="65000"
+                        data-img="img/banh-tiramisu.jpg">
+                        <img src="img/banh-tiramisu.jpg" alt="Bánh Tiramisu">
+                        <div class="menu-item-content">
+                            <h3>Bánh Tiramisu</h3>
+                            <p>Bánh tiramisu Italy chuẩn vị</p>
+                            <div class="menu-item-footer">
+                                <span class="price">65.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('tiramisu')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="cheesecake" data-name="Bánh Cheesecake" data-price="70000"
+                        data-img="img/Bánh Cheesecake.jpg">
+                        <img src="img/Bánh Cheesecake.jpg" alt="Bánh Cheesecake">
+                        <div class="menu-item-content">
+                            <h3>Bánh Cheesecake</h3>
+                            <p>Bánh phô mai New York style</p>
+                            <div class="menu-item-footer">
+                                <span class="price">70.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('cheesecake')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="flan" data-name="Bánh Flan" data-price="20000"
+                        data-img="img/banh_plan.jpg">
+                        <img src="img/banh_plan.jpg" alt="Bánh Flan">
+                        <div class="menu-item-content">
+                            <h3>Bánh Flan</h3>
+                            <p>Bánh flan mềm mịn, béo thơm, phủ caramel ngọt dịu — món tráng miệng yêu thích của mọi lứa
+                                tuổi.</p>
+                            <div class="menu-item-footer">
+                                <span class="price">20.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('flan')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-id="pudding-xoai" data-name="Bánh Pudding Xoài" data-price="50000"
+                        data-img="img/pudding_xoai.webp">
+                        <img src="img/pudding_xoai.webp" alt="Bánh Pudding Xoài">
+                        <div class="menu-item-content">
+                            <h3>Bánh Pudding Xoài</h3>
+                            <p>Pudding xoài mềm mịn, thơm ngọt tự nhiên, mang đến cảm giác tươi mát và nhẹ nhàng sau mỗi
+                                bữa ăn.</p>
+                            <div class="menu-item-footer">
+                                <span class="price">50.000đ</span>
+                                <button class="btn btn-small" onclick="addToCart('pudding-xoai')">Đặt ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <div class="section-header">
+                <h2>Đặt Bàn Online</h2>
+                <p>Đặt bàn trước để đảm bảo có chỗ ngồi thoải mái nhất cho bạn</p>
+            </div>
+            <div class="booking-content">
+                <div class="booking-info">
+                    <img src="img/quan1.jpeg" alt="Không gian quán">
+                    <div class="info-list">
+                        <div class="info-item">
+                            <span class="icon">
+                                <i class="fa-solid fa-clock"></i>
+                            </span>
+                            <span>Giờ mở cửa: 7:00 - 22:00 (Hàng ngày)</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">
+                                <i class="fa-solid fa-users"></i>
+                            </span>
+                            <span>Sức chứa: 50 khách</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">
+                                <i class="fa-solid fa-phone-volume"></i>
+                            </span>
+                            <span>Hotline: 0123 456 789</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking-form">
+                    <form id="bookingForm" onsubmit="submitBooking(event)">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">
+                                    <i class="fa-solid fa-user"></i>
+                                    Họ và tên</label>
+                                <input type="text" id="name" name="name" required placeholder="Nhập họ tên của bạn">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">
+                                    <i class="fa-solid fa-phone-volume"></i>
+                                    Số điện thoại</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="0123 456 789">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                <i class="fa-solid fa-envelope"></i>
+                                Email (tùy chọn)</label>
+                            <input type="email" id="email" name="email" placeholder="email@example.com">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="guests">
+                                    <i class="fa-solid fa-users"></i>
+                                    Số người</label>
+                                <select id="guests" name="guests" required>
+                                    <option value="1">1 người</option>
+                                    <option value="2" selected>2 người</option>
+                                    <option value="3">3 người</option>
+                                    <option value="4">4 người</option>
+                                    <option value="5">5 người</option>
+                                    <option value="6">6 người</option>
+                                    <option value="7">7 người</option>
+                                    <option value="8">8 người</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="date">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    Ngày</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">
+                                    <i class="fa-solid fa-clock"></i>
+                                    Giờ</label>
+                                <select id="time" name="time" required>
+                                    <option value="">Chọn giờ</option>
+                                    <option value="07:00">07:00</option>
+                                    <option value="07:30">07:30</option>
+                                    <option value="08:00">08:00</option>
+                                    <option value="08:30">08:30</option>
+                                    <option value="09:00">09:00</option>
+                                    <option value="09:30">09:30</option>
+                                    <option value="10:00">10:00</option>
+                                    <option value="10:30">10:30</option>
+                                    <option value="11:00">11:00</option>
+                                    <option value="11:30">11:30</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="12:30">12:30</option>
+                                    <option value="13:00">13:00</option>
+                                    <option value="13:30">13:30</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="14:30">14:30</option>
+                                    <option value="15:00">15:00</option>
+                                    <option value="15:30">15:30</option>
+                                    <option value="16:00">16:00</option>
+                                    <option value="16:30">16:30</option>
+                                    <option value="17:00">17:00</option>
+                                    <option value="17:30">17:30</option>
+                                    <option value="18:00">18:00</option>
+                                    <option value="18:30">18:30</option>
+                                    <option value="19:00">19:00</option>
+                                    <option value="19:30">19:30</option>
+                                    <option value="20:00">20:00</option>
+                                    <option value="20:30">20:30</option>
+                                    <option value="21:00">21:00</option>
+                                    <option value="21:30">21:30</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="notes">Ghi chú đặc biệt (tùy chọn)</label>
+                            <textarea id="notes" name="notes" rows="3"
+                                placeholder="Yêu cầu vị trí ngồi, sinh nhật, kỷ niệm..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">Đặt Bàn Ngay</button>
+                        <p class="form-note">* Chúng tôi sẽ gọi lại xác nhận trong vòng 15 phút</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trang Giỏ Hàng -->
+    <section class="booking" style="padding: 80px 0;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Giỏ Hàng & Đặt Hàng</h2>
+                <p>Xem lại đơn hàng và liên hệ để thanh toán nhanh chóng</p>
+            </div>
+
+            <div class="booking-content" style="gap: 4rem; align-items: start;">
+                <!-- Danh sách sản phẩm trong giỏ -->
+                <div class="cart-items" id="cartItems" style="flex: 2;">
+                    <!-- JS sẽ render ở đây -->
+                    <p style="text-align:center; color:var(--dark-brown);">Giỏ hàng trống. Hãy quay lại menu để thêm
+                        món!</p>
+                </div>
+
+                <!-- Tổng tiền + Liên hệ -->
+                <div class="booking-form" style="flex: 1; position: sticky; top: 100px;">
+                    <h3 style="text-align:center; color:var(--primary-brown); margin-bottom:1rem;">Tổng Đơn Hàng</h3>
+                    <p style="font-size:1.8rem; font-weight:700; color:var(--golden); text-align:center;"
+                        id="totalPrice">0đ</p>
+
+                    <div class="contact-info"
+                        style="margin-top:2rem; background:var(--cream); padding:1.5rem; border-radius:15px;">
+                        <h4 style="color:var(--primary-brown); text-align:center;">Liên Hệ Đặt Hàng</h4>
+                        <p style="margin:1rem 0;"><i class="fa-solid fa-phone-volume"
+                                style="color:var(--primary-brown);"></i> <strong>SDT:</strong> 0846464252</p>
+                        <p style="margin:1rem 0;"><i class="fa-brands fa-zalo" style="color:#0068ff;"></i>
+                            <strong>Zalo:</strong> 0846464252
+                        </p>
+                        <p style="font-size:0.9rem; color:var(--dark-brown); text-align:center; margin-top:1.5rem;">
+                            Gọi hoặc nhắn Zalo để xác nhận đơn hàng và thanh toán (tiền mặt / chuyển khoản)
+                        </p>
+                    </div>
+
+                    <button class="btn btn-primary btn-large" onclick="checkout()"
+                        style="margin-top:1.5rem; width:100%;">
+                        Gửi Đơn Hàng Qua Zalo/SDT
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Liên Hệ</h2>
+                <p>Hãy đến và trải nghiệm không gian ấm cúng của Hương Xưa</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Thông Tin Liên Hệ</h3>
+                    <div class="contact-item">
+                        <span class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </span>
+                        <div>
+                            <h4>Địa chỉ</h4>
+                            <p>34 Phan Châu Trinh Thị Trấn Diên Sanh Hải Lăng Quảng Trị</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </span>
+                        <div>
+                            <h4>Điện thoại</h4>
+                            <p>0846464252</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@huongxua.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">
+                            <i class="fa-solid fa-clock"></i>
+                        </span>
+                        <div>
+                            <h4>Giờ mở cửa</h4>
+                            <p>Thứ 2 - Chủ nhật: 7:00 - 22:00<br>Không nghỉ lễ, Tết</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h4>Theo dõi chúng tôi</h4>
+                        <div class="social-buttons">
+                            <a href="#" class="social-btn facebook">
+                                <i class="fa-brands fa-facebook"></i>
+                                Facebook</a>
+                            <a href="#" class="social-btn instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                                Instagram</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe
+                        src="https://maps.app.goo.gl/HjmYoD4UNNtqhXmx8"
+                        width="100%" height="400" style="border:0; border-radius: 10px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Vị trí Hương Xưa Coffee">
+                    </iframe>
+                    <div class="directions">
+                        <h4>Hướng dẫn đi lại</h4>
+                        <ul>
+                            <li>• Từ Ngã Ba Hải Lăng : 15 phút đi bằng xe máy</li>
+                            <li>• Từ Cây Xăng Hải Thọ : 5 phút bằng taxi</li>
+                            <li>• Gần các siêu thị Winmart, Bách Hoá Xanh</li>
+                            <li>• Có chỗ đỗ xe máy miễn phí</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo"></span>
+                        <h3>Hương Xưa</h3>
+                    </div>
+                    <p>Hương Xưa là điểm đến lý tưởng dành cho những ai muốn tìm lại hương
+                        vị cà phê nguyên bản trong không gian yên bình và tinh tế. Từng tách cà
+                        phê được chăm chút kỹ lưỡng từ khâu chọn hạt đến pha chế, mang đến trải
+                        nghiệm trọn vẹn cho vị giác. Không chỉ có cà phê ngon, Con Pò Cười còn ghi
+                        điểm bởi phong cách phục vụ chuyên nghiệp, thân thiện và không gian được thiết
+                        kế hài hòa, ấm cúng. Đây chắc chắn là nơi lý tưởng để thư giãn, trò chuyện
+                        hay tìm chút cảm hứng trong ngày mới.</p>
+                    <div class="social-buttons">
+                        <a href="#" class="social-btn facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-btn instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Liên hệ</h4>
+                    <div class="footer-contact-item">
+                        <span class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </span>
+                        <span>34 Phan Châu Trinh Thị Trấn Diên Sanh Hải Lăng Quảng Trị</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="icon">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </span>
+                        <span>0846464252</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                        <span>info@huongxua.com</span>
+                    </div>
+                    <div class="footer-hours">
+                        <h5>Giờ mở cửa</h5>
+                        <p>7:00 - 22:00<br>(Hàng ngày)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Hương Xưa Coffee
+                    Lê Thị Thuỳ Linh, Trần Thị Lưu, Lê Yến Nhi 12A6 Trường THPT Hải Lăng
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="datHang.js"></script>
+</body>
+
+</html>
